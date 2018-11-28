@@ -2,7 +2,7 @@
 
 Simple Ionic Kit with BackgroundMode and LocalNotification.
 
-### Ionic & Plugin version
+## Ionic & Plugin version
 
 Name | Version | Link
 ------------ | ------------- | -------------
@@ -10,5 +10,13 @@ Ionic | 4.3.0 | [Link](https://www.npmjs.com/package/ionic/v/4.3.0) |
 BackgroundMode | 0.7.2 | [Link](https://github.com/katzer/cordova-plugin-background-mode/) |
 LocalNotification | 0.9.0-beta.2 | [Link](https://github.com/katzer/cordova-plugin-local-notifications) |
 
-### Installation
+## Installation
 
+### Background Mode
+
+Use the CLI : 
+* cordova plugin add https://github.com/katzer/cordova-plugin-background-mode --nofetch
+* npm install --save @ionic-native/background-mode
+* ionic cordova build ios
+
+*Source [background-mode/issues/406](https://github.com/katzer/cordova-plugin-background-mode/issues/406)*
