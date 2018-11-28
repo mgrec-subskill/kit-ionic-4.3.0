@@ -79,3 +79,12 @@ Use the CLI :
       });
     }
 ```
+
+
+## Build & Run app on iOS form (MaCOS)
+
+Use the CLI : 
+* ionic cordova build ios
+* ionic cordova build ios -lc -- --buildFlag="-UseModernBuildSystem=0"
+
+*Source [ionic/issues/15900](https://github.com/ionic-team/ionic/issues/15900)*
