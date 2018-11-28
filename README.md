@@ -20,7 +20,7 @@ Use the CLI :
 *Source [more informations](https://ionicframework.com/getting-started#cli)*
 
 
-## In case of error or problems
+## In case of errors or problems
 
 ### Background Mode
 
