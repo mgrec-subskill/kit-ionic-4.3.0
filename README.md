@@ -20,7 +20,7 @@ Use the CLI :
 *Source [more informations](https://ionicframework.com/getting-started#cli)*
 
 
-***<span style='color:red'>in case of error or problems</span>***
+## In case of error or problems
 
 ### Background Mode
 
