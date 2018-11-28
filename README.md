@@ -12,6 +12,16 @@ LocalNotification | 0.9.0-beta.2 | [Link](https://github.com/katzer/cordova-plug
 
 ## Installation
 
+### Basic installation
+
+Use the CLI : 
+* npm -i
+
+*Source [more informations](https://ionicframework.com/getting-started#cli)*
+
+
+***<span style='color:red'>in case of error or problems</span>***
+
 ### Background Mode
 
 Use the CLI : 
