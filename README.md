@@ -20,3 +20,11 @@ Use the CLI :
 * ionic cordova build ios
 
 *Source [background-mode/issues/406](https://github.com/katzer/cordova-plugin-background-mode/issues/406)*
+
+### Local Notification
+
+Use the CLI : 
+* ionic cordova plugin add cordova-plugin-local-notification
+* npm install --save @ionic-native/local-notifications
+
+*Source [ionic/docs/native/local-notifications](https://github.com/katzer/cordova-plugin-background-mode/issues/406)*
