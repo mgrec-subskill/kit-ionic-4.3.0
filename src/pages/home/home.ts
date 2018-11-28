@@ -14,14 +14,15 @@ export class HomePage {
   constructor(public plt: Platform, public navCtrl: NavController, private backgroundMode: BackgroundMode, private localNotifications: LocalNotifications) {
   }
 
+  // Active backgroundMode
   ionViewDidLoad(){
     this.plt.ready().then((readySource) => {
       console.log('Platform ready from', readySource);
-      console.log('Background mode enable');
       this.backgroundMode.enable();
     });
   }
 
+  // Send notification later (10s)
   lunchTestLater() {
     let app = this;
     setTimeout(function(){
@@ -35,6 +36,7 @@ export class HomePage {
 
   }
 
+  // Send notification now
   lunchNow() {
     let app = this;
     app.localNotifications.schedule({
